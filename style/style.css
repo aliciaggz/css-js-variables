@@ -1,7 +1,21 @@
+:root {
+  --base: #a8e5f5;
+  --spacing: 10px;
+  --blur: 1px;
+}
+
 body {
   text-align: center;
+  background-color: rgb(218, 189, 245);
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
+  margin-top: 70px;
   width: 500px;
+  border-radius: 2em;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
 }

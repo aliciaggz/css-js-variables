@@ -9,13 +9,15 @@
   </head>
   <body>
     <h2>CSS Variables with JS</h2>
-    <label for="spacing">Spacing:</label>
-    <input type="range" />
-    <label for="blur">Blur:</label>
-    <input type="range" />
-    <label for="base">Base Color</label>
-    <input type="color" />
-    <img src="./images/DSC01481-1.jpg" alt="" />
+    <div class="controls">
+      <label for="spacing">Spacing:</label>
+      <input type="range" min="10" max="200" value="10" data-sizing="px" />
+      <label for="blur">Blur:</label>
+      <input type="range" min="10" max="200" value="10" data-sizing="px" />
+      <label for="base">Base Color</label>
+      <input type="color" name="base" value="#a8e5f5" />
+      <img src="./images/DSC01481-1.jpg" alt="" />
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>
