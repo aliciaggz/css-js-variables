@@ -1,7 +1,7 @@
 :root {
   --base: #a8e5f5;
   --spacing: 10px;
-  --blur: 1px;
+  --blur: 0px;
 }
 
 body {
@@ -10,7 +10,6 @@ body {
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 img {
   margin-top: 70px;
   width: 500px;
